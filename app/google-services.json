@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "278327272110",
+    "project_id": "ilist-452d4",
+    "storage_bucket": "ilist-452d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278327272110:android:3648e077001d74a171833f",
+        "android_client_info": {
+          "package_name": "com.yohannes.dev.app.ilist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278327272110-0annqstadob12io5gsi9k9meb1eqlra9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoOHcaaBmkIuOxYyrjEqnLciZ8rBz4oqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278327272110-0annqstadob12io5gsi9k9meb1eqlra9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
