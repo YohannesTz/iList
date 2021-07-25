@@ -12,10 +12,10 @@ A Simple TodoList App
     <img src="/images/image_3.png" width="350" title="Screenshot 3" alt="screenshot">
     <img src="/images/image_4.png" width="350" title="Screenshot 4" alt="screenshot">
     <img src="/images/image_5.png" width="350" title="Screenshot 5" alt="screenshot">
-    <img src="/images/image_2.png" width="350" title="Screenshot 6" alt="screenshot">
-    <img src="/images/image_3.png" width="350" title="Screenshot 7" alt="screenshot">
-    <img src="/images/image_4.png" width="350" title="Screenshot 8" alt="screenshot">
-    <img src="/images/image_5.png" width="350" title="Screenshot 9" alt="screenshot">
+    <img src="/images/image_6.png" width="350" title="Screenshot 6" alt="screenshot">
+    <img src="/images/image_7.png" width="350" title="Screenshot 7" alt="screenshot">
+    <img src="/images/image_8.png" width="350" title="Screenshot 8" alt="screenshot">
+    <img src="/images/image_9.png" width="350" title="Screenshot 9" alt="screenshot">
 </p>
 
 # MIT License (MIT)
