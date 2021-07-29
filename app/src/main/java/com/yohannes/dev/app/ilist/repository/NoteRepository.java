@@ -57,6 +57,12 @@ public class NoteRepository {
         @Override
         protected Void doInBackground(Note... notes) {
             noteDao.insert(notes[0]);
+            /*DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+            FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+
+            String userUniqueId = user.getUid();
+            databaseReference.child("Users").child(userUniqueId).child("notes").setValue(notes[0]);*/
+
             return null;
         }
     }
