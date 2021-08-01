@@ -1,15 +1,5 @@
 package com.yohannes.dev.app.ilist;
 
-import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.ItemTouchHelper;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
@@ -19,13 +9,21 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.ItemTouchHelper;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.yohannes.dev.app.ilist.activities.AddEditNoteActivity;
-import com.yohannes.dev.app.ilist.activities.SignIn;
 import com.yohannes.dev.app.ilist.activities.WelcomeActivity;
-import com.yohannes.dev.app.ilist.data.Note;
 import com.yohannes.dev.app.ilist.adapters.NoteAdapter;
+import com.yohannes.dev.app.ilist.data.Note;
 import com.yohannes.dev.app.ilist.viewmodels.NoteViewModel;
 
 import java.util.List;
