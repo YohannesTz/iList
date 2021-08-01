@@ -10,12 +10,13 @@ public class Note {
     @PrimaryKey(autoGenerate = true)
     private int id;
 
+    private String firebaseid;
     private String title;
     private String description;
-
     private int priority;
 
-    public Note(String title, String description, int priority) {
+    public Note(String firebaseid, String title, String description, int priority) {
+        this.firebaseid = firebaseid;
         this.title = title;
         this.description = description;
         this.priority = priority;
@@ -27,6 +28,14 @@ public class Note {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getFirebaseid() {
+        return firebaseid;
+    }
+
+    public void setFirebaseid(String firebaseid) {
+        this.firebaseid = firebaseid;
     }
 
     public String getTitle() {

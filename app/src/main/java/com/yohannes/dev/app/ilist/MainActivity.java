@@ -49,8 +49,10 @@ public class MainActivity extends AppCompatActivity {
                         String title = data.getStringExtra(AddEditNoteActivity.EXTRA_TITLE);
                         String description = data.getStringExtra(AddEditNoteActivity.EXTRA_DESCRIPTION);
                         int priority = data.getIntExtra(AddEditNoteActivity.EXTRA_PRIORITY, 1);
+                        String firebaseid = data.getStringExtra(AddEditNoteActivity.EXTRA_FIREBASEID);
 
-                        Note note = new Note(title, description, priority);
+
+                        Note note = new Note(firebaseid, title, description, priority);
                         noteViewModel.insert(note);
                         Toast.makeText(this, "Note Saved", Toast.LENGTH_SHORT).show();
                     }
@@ -71,8 +73,9 @@ public class MainActivity extends AppCompatActivity {
                         String title = data.getStringExtra(AddEditNoteActivity.EXTRA_TITLE);
                         String description = data.getStringExtra(AddEditNoteActivity.EXTRA_DESCRIPTION);
                         int priority = data.getIntExtra(AddEditNoteActivity.EXTRA_PRIORITY, 1);
+                        String firebaseid = data.getStringExtra(AddEditNoteActivity.EXTRA_FIREBASEID);
 
-                        Note note = new Note(title, description, priority);
+                        Note note = new Note(firebaseid, title, description, priority);
                         note.setId(id);
                         noteViewModel.update(note);
 
@@ -140,9 +143,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Signed Out", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this, WelcomeActivity.class));
                 finish();
-            case R.id.syncCloud:
+            /*case R.id.syncCloud:
                 syncWithCloud();
-                return true;
+                return true;*/
             default:
                 return super.onOptionsItemSelected(item);
         }

@@ -26,6 +26,8 @@ public class AddEditNoteActivity extends AppCompatActivity {
             "com.yohannes.dev.app.ilist.EXTRA_DESCRIPTION";
     public static final String EXTRA_PRIORITY =
             "com.yohannes.dev.app.ilist.EXTRA_PRIORITY";
+    public static final String EXTRA_FIREBASEID =
+            "com.yohannes.dev.app.ilist.EXTRA_FIREBASEID";
 
     private EditText editTextTitle;
     private EditText editTextDescription;
