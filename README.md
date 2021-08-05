@@ -1,6 +1,8 @@
 # iList
 A Simple TodoList App
 
+icons from [Icons8](https://icons8.com/)
+
 # dependencies
 - constraint layout
 - mvvm achitecture
